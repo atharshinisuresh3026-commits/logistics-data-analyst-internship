@@ -1,0 +1,71 @@
+{
+ "models": {
+  "Linear Regression": {
+   "MAE": 0.515,
+   "RMSE": 0.658,
+   "R2": 0.91,
+   "CV_R2": 0.875
+  },
+  "Decision Tree": {
+   "MAE": 0.708,
+   "RMSE": 0.906,
+   "R2": 0.829,
+   "CV_R2": 0.816
+  },
+  "Random Forest": {
+   "MAE": 0.573,
+   "RMSE": 0.739,
+   "R2": 0.886,
+   "CV_R2": 0.863
+  },
+  "Gradient Boosting": {
+   "MAE": 0.525,
+   "RMSE": 0.667,
+   "R2": 0.907,
+   "CV_R2": 0.878
+  }
+ },
+ "baseline_planned": {
+  "MAE": 1.423,
+  "RMSE": 1.659,
+  "R2": 0.426
+ },
+ "best_params": {
+  "m__learning_rate": 0.1,
+  "m__max_depth": 2,
+  "m__n_estimators": 300
+ },
+ "tuned": {
+  "MAE": 0.523,
+  "RMSE": 0.661,
+  "R2": 0.909
+ },
+ "within_1h": 88.8,
+ "top_features": {
+  "planned_hours": 0.844,
+  "weather_Storm": 0.04,
+  "weather_Clear": 0.035,
+  "traffic_index": 0.025,
+  "carrier_SwiftLine": 0.02,
+  "weight_kg": 0.011
+ },
+ "optimisation": {
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "baseline_cost": 2732575,
+  "optimised_cost": 2708868,
+  "cost_change_pct": -0.87,
+  "new_share_pct": {
+   "SwiftLine": 50.0,
+   "RoadRunner": 45.0,
+   "CargoPlus": 5.0
+  },
+  "old_share_pct": {
+   "SwiftLine": 39.7,
+   "RoadRunner": 35.5,
+   "CargoPlus": 24.8
+  },
+  "old_late_pct": 11.9,
+  "new_late_pct": 9.6,
+  "late_shipments_avoided": 117
+ }
+}

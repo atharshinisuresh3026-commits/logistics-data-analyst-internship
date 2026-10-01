@@ -1,0 +1,103 @@
+{
+ "summary": {
+  "distance_km": {
+   "mean": 77.13,
+   "median": 70.8,
+   "std": 35.77,
+   "skew": 0.87
+  },
+  "weight_kg": {
+   "mean": 30.45,
+   "median": 26.1,
+   "std": 19.74,
+   "skew": 1.39
+  },
+  "actual_hours": {
+   "mean": 6.88,
+   "median": 6.55,
+   "std": 2.22,
+   "skew": 0.8
+  },
+  "delay_hours": {
+   "mean": -1.23,
+   "median": -1.28,
+   "std": 1.15,
+   "skew": 0.77
+  },
+  "shipping_cost": {
+   "mean": 546.35,
+   "median": 492.96,
+   "std": 270.12,
+   "skew": 1.35
+  }
+ },
+ "delay_rate": 11.9,
+ "delay_by_weather": {
+  "Clear": 4.1,
+  "Rain": 18.0,
+  "Storm": 81.8
+ },
+ "delay_by_carrier": {
+  "CargoPlus": 20.9,
+  "RoadRunner": 12.6,
+  "SwiftLine": 5.8
+ },
+ "delay_by_hub": {
+  "Hub_East": 12.0,
+  "Hub_North": 10.7,
+  "Hub_South": 12.0,
+  "Hub_West": 13.9
+ },
+ "hours_by_vehicle": {
+  "Bike": 8.31,
+  "Truck": 6.71,
+  "Van": 6.24
+ },
+ "cost_per_km_by_vehicle": {
+  "Bike": 4.93,
+  "Truck": 10.3,
+  "Van": 7.22
+ },
+ "avg_delay_by_carrier": {
+  "CargoPlus": -0.73,
+  "RoadRunner": -1.11,
+  "SwiftLine": -1.64
+ },
+ "avg_delay_by_weather": {
+  "Clear": -1.55,
+  "Rain": -0.79,
+  "Storm": 0.84
+ },
+ "express_hours": {
+  "Express": 6.42,
+  "Standard": 6.99
+ },
+ "corr_hours": {
+  "distance_km": 0.7,
+  "weight_kg": 0.1,
+  "traffic_index": 0.12,
+  "num_stops": 0.28,
+  "actual_hours": 1.0,
+  "delay_hours": 0.33,
+  "shipping_cost": 0.4
+ },
+ "corr_cost": {
+  "distance_km": 0.74,
+  "weight_kg": 0.13,
+  "traffic_index": -0.02,
+  "num_stops": 0.02,
+  "actual_hours": 0.4,
+  "delay_hours": -0.1,
+  "shipping_cost": 1.0
+ },
+ "monthly_peak": {
+  "12": 461,
+  "6": 442,
+  "10": 435
+ },
+ "worst_hub_zone": {
+  "Hub_West|Z2": 17.5,
+  "Hub_West|Z4": 16.3,
+  "Hub_West|Z7": 15.5
+ }
+}

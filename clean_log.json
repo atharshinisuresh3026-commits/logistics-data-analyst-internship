@@ -1,0 +1,61 @@
+{
+ "raw_rows": 5060,
+ "missing_before": {
+  "weather": 150,
+  "distance_km": 100,
+  "weight_kg": 303,
+  "traffic_index": 254
+ },
+ "duplicates": 60,
+ "negative_cost": 16,
+ "after_dedup_rows": 5000,
+ "bad_dates": 0,
+ "outliers_distance_km": 139,
+ "extreme_distance_km": 35,
+ "outliers_actual_hours": 107,
+ "extreme_actual_hours": 18,
+ "missing_after": 0,
+ "final_rows": 5000,
+ "describe": {
+  "distance_km": {
+   "count": 5000.0,
+   "mean": 77.13,
+   "std": 35.77,
+   "min": 19.26,
+   "25%": 50.7,
+   "50%": 70.8,
+   "75%": 97.0,
+   "max": 192.91
+  },
+  "weight_kg": {
+   "count": 5000.0,
+   "mean": 30.45,
+   "std": 19.74,
+   "min": 0.6,
+   "25%": 16.3,
+   "50%": 26.1,
+   "75%": 40.1,
+   "max": 192.4
+  },
+  "actual_hours": {
+   "count": 5000.0,
+   "mean": 6.88,
+   "std": 2.22,
+   "min": 2.9,
+   "25%": 5.27,
+   "50%": 6.55,
+   "75%": 8.12,
+   "max": 14.08
+  },
+  "shipping_cost": {
+   "count": 5000.0,
+   "mean": 546.35,
+   "std": 270.12,
+   "min": 41.06,
+   "25%": 355.18,
+   "50%": 492.96,
+   "75%": 677.98,
+   "max": 2357.14
+  }
+ }
+}
